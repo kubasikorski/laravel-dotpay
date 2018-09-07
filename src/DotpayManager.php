@@ -23,7 +23,6 @@ class DotpayManager
         return $this->dotpayApi->createPayment($data);
     }
 
-
     public function response()
     {
         return $this->response;
